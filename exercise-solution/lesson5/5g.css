@@ -1,0 +1,29 @@
+  p{
+    font-family: Arial;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .tweet-header{
+margin-bottom: 8px;
+  }
+  .tweet-author{
+font-weight: bold;
+font-family: Arial;
+
+
+  }
+  .tweet-info{
+
+font-family: Arial;
+color: rgb(88, 87, 87);
+
+  }
+  .tweet{
+    width: 450px;
+    margin-bottom: 11px;
+
+  }
+  .twitter-handle{
+color: rgb(38, 125, 246);
+  }
