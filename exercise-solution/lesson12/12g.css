@@ -1,0 +1,50 @@
+.profile{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+
+  align-items: center;
+  flex: 1;
+}
+.profile-section{
+  display: flex;
+  flex-direction: row;
+    align-items: center;
+    flex: 1;
+}
+
+img{
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+
+}
+
+.img{
+    margin-right: 10px;
+}
+
+button{
+border: none;
+color: white;
+font-family: Roboto;
+font-weight: 500;
+background-color: rgb(72,144,224);
+padding: 10px;
+width: 85px;
+border-radius:8px ;
+
+}
+.name{
+  margin:0;
+  font-family: Roboto;
+  font-weight: 500;
+}
+p{
+  margin: 0;
+  font-family: Roboto;
+  color: rgb(84, 85, 85);
+}
