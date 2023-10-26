@@ -1,27 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <title>Youtube Clone</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-<link rel="stylesheet" href="styles/video.css">
-<link rel="stylesheet" href="styles/general.css">
-<link rel="stylesheet" href="styles/header.css">
+      rel="stylesheet" />
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+     <link rel="stylesheet" href="styles/sidebar.css">
   </head>
+
   <body>
     <div class="header">
-      <div class="left-section">left-section</div>
-      <div class="middle-section">
-         <input class="search-bar" type="text" placeholder="Search" />
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="">
+        <img class="youtube-logo" src="icons/youtube-logo.svg" alt="">
       </div>
-      <div class="right-section">right-section</div>
-     
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-btn">
+          <img class="search-icon" src="icons/search.svg" alt="">
+        </button>
+        <button class="voice-search-btn">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="">
+        </button>
+      </div>
+      <div class="right-section">
+        <img class="upload-icon" src="icons/upload.svg" alt="">
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="">
+        <img class="notifications-icon" src="icons/notifications.svg" alt="">
+        <img class="current-user-picture" src="channel-pictures/channel-1.jpeg" alt="">
+      </div>
     </div>
-    
+<div class="sidebar">sidebar</div>
     <div class="video-grid">
       <div class="video-preview">
         <div class="thumbnail-row">
@@ -29,11 +44,7 @@
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
-            <img
-              class="profile-picture"
-              src="channel-pictures/channel-1.jpeg"
-              alt=""
-            />
+            <img class="profile-picture" src="channel-pictures/channel-1.jpeg" alt="" />
           </div>
           <div class="video-info">
             <p class="video-title">
@@ -51,11 +62,7 @@
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
-            <img
-              class="profile-picture"
-              src="channel-pictures/channel-2.jpeg"
-              alt=""
-            />
+            <img class="profile-picture" src="channel-pictures/channel-2.jpeg" alt="" />
           </div>
           <div class="video-info">
             <p class="video-title">Try Not To Laugh Challenge #9</p>
@@ -71,11 +78,7 @@
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
-            <img
-              class="profile-picture"
-              src="channel-pictures/channel-3.jpeg"
-              alt=""
-            />
+            <img class="profile-picture" src="channel-pictures/channel-3.jpeg" alt="" />
           </div>
           <div class="video-info">
             <p class="video-title">
@@ -93,11 +96,7 @@
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
-            <img
-              class="profile-picture"
-              src="channel-pictures/channel-4.jpeg"
-              alt=""
-            />
+            <img class="profile-picture" src="channel-pictures/channel-4.jpeg" alt="" />
           </div>
           <div class="video-info">
             <p class="video-title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
@@ -113,16 +112,12 @@
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
-            <img
-              class="profile-picture"
-              src="channel-pictures/channel-5.jpeg"
-              alt=""
-            />
+            <img class="profile-picture" src="channel-pictures/channel-5.jpeg" alt="" />
           </div>
           <div class="video-info">
             <p class="video-title">
-             
-Kadane's Algorithm to Maximum Sum Subarray Problem
+
+              Kadane's Algorithm to Maximum Sum Subarray Problem
             </p>
             <p class="video-author">CS Dojo</p>
             <p class="video-stats">519K views &#183; 5 year ago</p>
@@ -136,11 +131,7 @@ Kadane's Algorithm to Maximum Sum Subarray Problem
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
-            <img
-              class="profile-picture"
-              src="channel-pictures/channel-10.jpeg"
-              alt=""
-            />
+            <img class="profile-picture" src="channel-pictures/channel-10.jpeg" alt="" />
           </div>
           <div class="video-info">
             <p class="video-title">
@@ -158,16 +149,12 @@ Kadane's Algorithm to Maximum Sum Subarray Problem
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
-            <img
-              class="profile-picture"
-              src="channel-pictures/channel-6.jpeg"
-              alt=""
-            />
+            <img class="profile-picture" src="channel-pictures/channel-6.jpeg" alt="" />
           </div>
           <div class="video-info">
             <p class="video-title">
-              
-Anything You Can Fit In The Circle I’ll Pay For
+
+              Anything You Can Fit In The Circle I’ll Pay For
             </p>
             <p class="video-author">Mr Beast</p>
             <p class="video-stats">141M views &#183; 6 months ago</p>
@@ -181,15 +168,11 @@ Anything You Can Fit In The Circle I’ll Pay For
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
-            <img
-              class="profile-picture"
-              src="channel-pictures/channel-7.jpeg"
-              alt=""
-            />
+            <img class="profile-picture" src="channel-pictures/channel-7.jpeg" alt="" />
           </div>
           <div class="video-info">
             <p class="video-title">
-Why Planes Don't Fly Over Tibet</p>
+              Why Planes Don't Fly Over Tibet</p>
             <p class="video-author">RealLifeLore</p>
             <p class="video-stats">8.8M views &#183; 1 years ago</p>
           </div>
@@ -202,16 +185,12 @@ Why Planes Don't Fly Over Tibet</p>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
-            <img
-              class="profile-picture"
-              src="channel-pictures/channel-8.jpeg"
-              alt=""
-            />
+            <img class="profile-picture" src="channel-pictures/channel-8.jpeg" alt="" />
           </div>
           <div class="video-info">
             <p class="video-title">
-              
-Inside The World's Biggest Passenger Plane
+
+              Inside The World's Biggest Passenger Plane
             </p>
             <p class="video-author">Tech Vision</p>
             <p class="video-stats">6M views &#183; 10 months ago</p>
@@ -225,15 +204,11 @@ Inside The World's Biggest Passenger Plane
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
-            <img
-              class="profile-picture"
-              src="channel-pictures/channel-9.jpeg"
-              alt=""
-            />
+            <img class="profile-picture" src="channel-pictures/channel-9.jpeg" alt="" />
           </div>
           <div class="video-info">
             <p class="video-title">
-The SECRET to Super Human STRENGTH</p>
+              The SECRET to Super Human STRENGTH</p>
             <p class="video-author">ThenX</p>
             <p class="video-stats">3.5M views &#183; 1 years ago ago</p>
           </div>
@@ -246,16 +221,12 @@ The SECRET to Super Human STRENGTH</p>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
-            <img
-              class="profile-picture"
-              src="channel-pictures/channel-11.jpeg"
-              alt=""
-            />
+            <img class="profile-picture" src="channel-pictures/channel-11.jpeg" alt="" />
           </div>
           <div class="video-info">
             <p class="video-title">
-              
-Dubai's Crazy Underwater Train and Other Things #Only in Dubai
+
+              Dubai's Crazy Underwater Train and Other Things #Only in Dubai
             </p>
             <p class="video-author">Destination Tips</p>
             <p class="video-stats">8M views &#183; 9 months ago</p>
@@ -269,15 +240,11 @@ Dubai's Crazy Underwater Train and Other Things #Only in Dubai
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
-            <img
-              class="profile-picture"
-              src="channel-pictures/channel-12.jpeg"
-              alt=""
-            />
+            <img class="profile-picture" src="channel-pictures/channel-12.jpeg" alt="" />
           </div>
           <div class="video-info">
             <p class="video-title">
-What would happen if you didn’t drink water? - Mia Nacamulli</p>
+              What would happen if you didn’t drink water? - Mia Nacamulli</p>
             <p class="video-author">TED-Ed</p>
             <p class="video-stats">19M views &#183; 4 years ago ago</p>
           </div>
@@ -285,4 +252,5 @@ What would happen if you didn’t drink water? - Mia Nacamulli</p>
       </div>
     </div>
   </body>
+
 </html>
