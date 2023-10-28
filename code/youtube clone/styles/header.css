@@ -8,7 +8,7 @@
        border-style: solid;
        border-color: rgb(192, 192, 192);
        border-radius: 2px;
-       box-shadow: inset 1px 2px 2px rgb(0,0,0,0.5);
+       box-shadow: inset 1px 1px 1px rgba(114, 111, 111, 0.5);
       }
 .search-bar::placeholder{
   font-family: Roboto,Arial;
@@ -23,12 +23,13 @@
 position: fixed;
 background-color: white;
 top: 0;
+z-index: 1;
 left: 0;
 bottom: 0;
 right: 0;
 border-bottom-width: 1px;
 border-bottom-style: solid;
-border-bottom-color: rgb(240,240,240);
+border-bottom-color: rgb(204, 202, 202);
       }
 
       .left-section{
@@ -75,6 +76,23 @@ border-bottom-color: rgb(240,240,240);
       .notifications-icon{
          height: 24px;
       }
+
+      .notifications-icon-container{
+         position:relative;
+      }
+      .notifications-count{
+         position:absolute;
+         top: -5px;
+         right: -3px;
+         background-color: red;
+         color: white;
+         border-radius: 10px;
+         padding-top: 2px;
+         padding-left: 6px;
+         padding-right: 6px;
+         font-size: 10px;
+         padding-bottom: 2px;
+      }
       .current-user-picture{
          height: 32px;
          border-radius: 16px;
@@ -88,6 +106,7 @@ border-bottom-color: rgb(240,240,240);
       border-color:rgb(192, 192, 192);
       margin-left: -1px;
       margin-right: 10px;
+     
      }
      .voice-search-btn{
       height: 40px;
@@ -95,15 +114,53 @@ border-bottom-color: rgb(240,240,240);
       border-radius: 20px;
       border:none;
      }
+
+      .search-btn,
+      .voice-search-btn{
+         position: relative;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
      .search-icon{
       height:25px;
-      margin-top: 4px
+   
 
      }
 
      .voice-search-icon{
       height: 24px ;
-      margin-top: 4px;
+  
       background-color: rgb(234, 232, 232);
 
      }
+
+     .search-btn .tooltip,
+     .voice-search-btn .tooltip,
+     .upload-icon-container .tooltip,
+     .youtube-apps-container .tooltip,
+     .notifications-icon-container .tooltip{
+      font-family: Roboto,Arial;
+      position:absolute;
+      background-color: gray;
+      color: white;
+      padding-top: 4px;
+      padding-left: 4px;
+      padding-bottom: 4px;
+      padding-right: 4px;
+      border-radius: 2px;
+      font-size: 12px;
+      bottom: -30px;
+      opacity: 0;
+      transition: opacity 0.15s;
+      pointer-events: none;
+      white-space: nowrap;
+
+     } 
+      .search-btn:hover .tooltip,
+     .voice-search-btn:hover .tooltip,
+      .upload-icon-container:hover .tooltip,
+      .youtube-apps-container:hover .tooltip,
+     .notifications-icon-container:hover .tooltip{
+         opacity: 1;
+       }

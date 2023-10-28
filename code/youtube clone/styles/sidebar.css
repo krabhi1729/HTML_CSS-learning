@@ -4,6 +4,33 @@
   top: 50px;
   left: 0;
   bottom: 0;
-  width: 60px;
+  width: 70px;
+  padding-top: 10px;
 
+}
+
+.sidebar-link{
+  display: flex;
+  height: 74px;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+cursor: pointer;
+
+
+}
+
+.sidebar-link:hover{
+  background-color:rgb(225, 223, 223) ;
+}
+
+.sidebar-link img{
+  height: 24px;
+  margin-bottom: 4px;
+
+}
+
+.sidebar-link div{
+font-family: Roboto,Arial;
+font-size: 10px;
 }
